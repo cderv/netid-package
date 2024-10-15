@@ -7,6 +7,7 @@
 #' @return
 #' The number of missing values in the vector
 #'
+#' @export
 #' @examples
 #' # Some missing values
 #' count_na(c(1, 2, NA, 4))

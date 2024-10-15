@@ -5,6 +5,7 @@
 #' @return
 #' Prints "Hello, world!" to the console.
 #'
+#' @export
 #' @examples
 #' hello()
 hello <- function() {
