@@ -11,5 +11,10 @@ This is an example of an R package we created during class.
 \author{
 \strong{Maintainer}: J J B \email{j@somewhere.com} (\href{https://orcid.org/your-orcid-id-here}{ORCID}) [copyright holder]
 
+Other contributors:
+\itemize{
+  \item Billy Joel (\href{https://orcid.org/their-orcid-id-here}{ORCID}) [contributor, medium]
+}
+
 }
 \keyword{internal}

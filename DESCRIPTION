@@ -7,10 +7,17 @@ Depends:
 Authors@R: c(
     person("J J", "B", email = "j@somewhere.com", 
            role = c("aut", "cre", "cph"), 
-           comment = c(ORCID = "your-orcid-id-here"))
+           comment = c(ORCID = "your-orcid-id-here")),
+    person("Billy", "Joel", 
+           role = c("ctb", "med"), 
+           comment = c(ORCID = "their-orcid-id-here"))
     )
 Description: This is an example of an R package we created during class.
-Imports: ggplot2
+Imports: ggplot2 (>= 3.4.0)
+Suggests: 
+    dplyr,
+    quarto,
+    rmarkdown
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
