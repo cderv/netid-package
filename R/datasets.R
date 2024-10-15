@@ -21,9 +21,9 @@
 #'
 #' if (requireNamespace("dplyr", quietly = TRUE)) {
 #'   # Call function in dplyr via namespace
-#'   aut23 %>%
-#'     dplyr::group_by(`Gender Code`) %>%
-#'     dplyr::summarize(total_enrollment = sum(enrollment)) %>%
+#'   aut23 |>
+#'     dplyr::group_by(Gender.Code) |>
+#'     dplyr::summarize(total_enrollment = sum(enrollment)) |>
 #'     print()
 #' }
 "aut23"
