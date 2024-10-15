@@ -1,3 +1,53 @@
+# Addition ----
+
+#' Add Two Numbers
+#'
+#' Takes two numbers and returns their sum
+#'
+#' @param x A `numeric`.
+#' @param y A `numeric`.
+#'
+#' @return
+#' Sum of `x` and `y`.
+#'
+#' @examples
+#' add(1, 1)
+#' add(2, 4)
+#'
+#' \dontrun{
+#' add(6, 12341) # Avoid running expensive calls
+#' }
+#' @export
+add <- function(x, y) {
+    x + y
+}
+
+# Subtraction ----
+
+#' Subtract Two Numbers
+#'
+#' Takes two numbers and returns their difference
+#'
+#' @param x A `numeric`.
+#' @param y A `numeric`.
+#'
+#' @return
+#' Difference of `x` and `y`.
+#'
+#' @examples
+#' subtract(1, 1)
+#' subtract(2, 4)
+#'
+#' \dontrun{
+#' subtract(6, 12341) # Avoid running expensive calls
+#' }
+#' @export
+subtract <- function(x, y) {
+    x - y
+}
+
+# Multiplication ----
+
 #' Multiple Two Numbers
 #'
 #' Takes two numbers and returns their product
@@ -16,9 +66,11 @@
 #' multiple(2, 311234) # Avoid running expensive calls
 #' }
 #' @export
-multiply =  function(x, y) {
+multiply <- function(x, y) {
     x * y
 }
+
+# Division ----
 
 #' Divide Two Numbers
 #'
@@ -38,6 +90,6 @@ multiply =  function(x, y) {
 #' divide(6, 12341) # Avoid running expensive calls
 #' }
 #' @export
-divide =  function(x, y) {
+divide <- function(x, y) {
     x / y
 }
