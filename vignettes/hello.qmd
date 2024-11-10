@@ -1,0 +1,57 @@
+---
+title: "Hello There!"
+format: html
+vignette: >
+  %\VignetteIndexEntry{Hello There!}
+  %\VignetteEngine{quarto::html}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup}
+library(netid)
+```
+
+# Quarto Vignette
+
+This is a Quarto vignette. 
+
+Let's explore some of the R package functions. 
+
+## Hello, World!
+
+```{r}
+hello()
+```
+
+## Count Missing Values
+
+```{r}
+count_na(c(1, 2, NA, 4))
+```
+
+## Binary Operations
+
+
+```{r}
+add(1, 1)
+subtract(2, 4)
+multiply(4, 6)
+```
+
+
+## Theme for STATS 290 Graphs
+
+```{r}
+library(ggplot2)
+ggplot(mtcars) +
+   aes(x = wt, y = mpg,
+       colour = factor(gear)) +
+   geom_point() +
+   theme_stats290()
+```
+
+## Session Info
+
+```{r}
+sessionInfo()
+```
