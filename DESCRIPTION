@@ -16,6 +16,7 @@ Description: This is an example of an R package we created during class.
 Imports: ggplot2 (>= 3.4.0)
 Suggests: 
     dplyr,
+    knitr,
     quarto,
     testthat (>= 3.0.0)
 License: MIT + file LICENSE
